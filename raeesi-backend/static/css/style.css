@@ -1,0 +1,29 @@
+/* Tailwind CSS classes can be used directly in your HTML file or in your Tailwind configuration */
+.slider-container {
+    /* Set container width and hide overflow */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    /* Set flex display and transition for smooth animations */
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider-btn {
+    /* Style for navigation buttons */
+    /* Example styles - customize as needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* Positioning */
+    /* Adjust position as needed */
+    /* For example, left: 10px; right: 10px; */
+  }
+  
+  /* Additional styling for categories can be added here */
+  
